@@ -1,2 +1,4 @@
 # OrthodoxFriar
-Using Python to access API's etc...
+From [Daring Fireball] [] "HTML is a publishing format; Markdown is a writing format."
+
+[Daring Fireball]: https://daringfireball.net/projects/markdown/syntax#philosophy
