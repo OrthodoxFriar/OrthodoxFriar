@@ -4,5 +4,7 @@
 
 layout: default
 title: Home
+permalink: /
 ---
+
 # Orthodox Friar
