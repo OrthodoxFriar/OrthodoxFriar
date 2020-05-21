@@ -1,4 +1,3 @@
-# OrthodoxFriar
-From [Daring Fireball] [] "HTML is a publishing format; Markdown is a writing format.".
+# Orthodox Friar
 
-[Daring Fireball]: https://daringfireball.net/projects/markdown/syntax#philosophy
+Pray like everything depends on God, work like everything depends on you.
