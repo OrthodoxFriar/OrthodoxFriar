@@ -1,4 +1,22 @@
+body {
+    background-color: red;
+}
 header {
-	background-color: green;
-
+	background-color: steelblue;
+}
+nav {
+    background-color: khaki;
+}
+article {
+    background-color: powderblue;
+}
+aside {
+    background-color: teal;
+}
+.ad {
+    background-color: mediumseagreen;
+}
+footer {
+    background-color: black;
+    color: white;
 }
