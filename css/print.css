@@ -1,0 +1,47 @@
+/* Hide elements that don't belong on a printed page */
+  header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+  display: none !important;
+}
+/* Flexbox and Grid may not play nice with 'print media' */
+/* use Display: block; and set the width */
+
+/* Printer friendly styling */
+/* dark text on a white background */
+/* serif font 12pt or larger */
+/* modify margins and padding where necessary */
+
+/* Use columns to make the text easier to read */
+article {
+  column-width: 17em;
+  column-gap: 3em;
+}
+
+/* Use borders instead of background colors */
+
+/* Only display images that have the .print class */
+* {
+  background-image: none !important;
+}
+img, svg {
+  display: none !important;
+}
+img.print, svg,print {
+  display: block;
+  max-width: 100%;
+}
+/* Invert dark bitmap images for printing */
+img.dark {
+  filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(150%);
+}
+/* Add supplimentary content */
+/* Display a link's URL in brackets after the text */
+a::after {
+  content: " (" attr(href) ")";
+}
+/* Display print only content */
+main::after {
+  content: "Copyright orthodoxfriar.com";
+  display: block;
+  text-align: center;
+}
+
