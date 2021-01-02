@@ -2,16 +2,16 @@ body {
     background-color: red;
 }
 header {
-	background-color: steelblue;
+	background-color: powderblue;
 }
 nav {
-    background-color: khaki;
+    background-color: steelblue;
 }
 article {
-    background-color: powderblue;
+    background-color: khaki;
 }
 aside {
-    background-color: teal;
+    background-color: steelblue;
 }
 .ad {
     background-color: mediumseagreen;
